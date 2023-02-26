@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify -Your Favorite Music is here</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="spotify log">Spotify</li>
+            <li class="link">Home</li>
+            <li class="link">About</li>
+
+        </ul>
+    </nav>
+
+    <div class="container">
+
+
+        <div class="songlist">
+            <h1>Best of NCS - No Copyright Sounds</h1>
+            <div class="songitmecontainer">
+                <div class="songitmes">
+                    <img src="covers/cover1.jpg" alt="10">
+                    <span class="songname">Bappu_Zimidar</span>
+
+                    <span class="songplaylist"><span class="timespan">05:30 <i
+                             id = "0"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/barrish.jpg" alt="10">
+                    <span class="songname">Barrish</span>
+
+                    <span class="songplaylist"><span class="timespan">05:30 <i
+                             id = "1"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/download.jpg" alt="10">
+                    <span class="songname">Millind Gaba Zindagi Di Paudi</span>
+
+                    <span class="songplaylist mg"><span class="timespan">05:30 <i
+                             id = "mg"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/main hoon chand.jpg" alt="10">
+                    <span class="songname">Main hoon Chand</span>
+
+                    <span class="songplaylist"><span class="timespan">05:30 <i
+                             id = "3"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/download1.jpg" alt="10">
+                    <span class="songname">Mere Mehboob Qayamat Hogi</span>
+
+                    <span class="songplaylist honey"><span class="timespan">05:30 <i
+                              id = "honey"  class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/na na na.jpg" alt="10">
+                    <span class="songname">Na_Na_Na_J_Star</span>
+
+                    <span class="songplaylist"><span class="timespan">05:30 <i
+                             id = "5"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/one dream.jpg" alt="10">
+                    <span class="songname">One Dream</span>
+
+                    <span class="songplaylist"><span class="timespan">05:30 <i
+                              id = "6"  class="fa-sharp playsong  fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/patola.jpg" alt="10">
+                    <span class="songname">Patola</span>
+
+                    <span class="songplaylist"><span class="timespan">05:30 <i
+                             id = "7"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                <div class="songitmes">
+                    <img src="covers/photo.jpg" alt="10">
+                    <span class="songname">Photo(Singga)</span>
+
+                    <span class="songplaylist"><span class="timespan">05:30 <i
+                             id = "8"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+
+                
+
+                <div class="songitmes">
+                    <img src="covers/pinda alae jatta.jpg" alt="10">
+                    <span class="songname">Pinda Aale Jatta(Parmish Verma)</span>
+
+                    <span class="songplaylist parmish"><span class="timespan">05:30 <i
+                             id = "parmish"   class="fa-sharp playsong fa-2x fa-solid fa-circle-play"></i></span> </span>
+
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="progressbar" min="0" value = "0" max="100">
+        <div class="icons">
+            <!-- fontawesome icons  -->
+            <i class="fa-solid fa-3x fa-backward" id="prev"></i>
+            <i class="fa-sharp fa-3x fa-solid fa-circle-play" id="play"></i>
+            <i class="fa-solid fa-3x fa-forward" id="next"></i>
+        </div>
+
+        <div class="songinfo">
+            <img src="playing.gif" width="42px" alt="" id = "gif"><span id="mastersong">Bappu_Zimidar</span>
+        </div> 
+
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

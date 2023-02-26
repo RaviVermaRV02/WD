@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+
+body {
+background-color : antiquewhite;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+ 
+
+ ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+}
+
+ .link{
+    padding: 0px 41px;
+font-size: 24px
+ }
+
+.brand img{
+width:44px ;
+padding: 0,;
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    padding-right: 27px;
+}
+
+.container{
+    min-height: 58vh;
+    background-color: black;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    border-radius: 12px;
+    padding: 34px;
+    background-image: url('bg.jpg');
+    background-size: cover;
+    
+}
+.bottom{
+    position: sticky;
+    bottom: 0;
+    height: 90px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.icons{
+    margin-top: 14px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+ #progressbar{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songitmecontainer{
+    margin-top: 74px;
+}
+
+.songitmes{
+height: 50px;
+display: flex;
+background-color: white;
+color: black;
+width: 80%;
+margin: 12px 0px;
+justify-content: space-between;
+align-items: center;
+border-radius: 34px;
+}
+
+.timespan{
+   margin: 0px 23px; 
+   
+}
+
+#mg{
+position: absolute;
+left: 68px;
+bottom: 5px;
+
+}
+
+.mg{
+    position: relative;
+    right: 35px;
+    top: 16px; 
+}
+
+#honey{
+    position: absolute;
+    left: 68px;
+    bottom: 5px;
+}
+
+.honey{
+    position: relative;
+    right: 35px;
+    top: 16px;
+}
+
+#parmish{
+position: absolute;
+left: 68px;
+bottom: 5px;
+}
+
+.parmish{
+    position: relative;
+    right: 40px;
+}
+.timespan i {
+     
+    cursor: pointer;
+ }
+
+.songitmes img{
+    width: 43px;
+    margin:  0px 23px ;
+    border-radius: 34px;
+}
+
+.songinfo{
+    position:absolute;
+    left: 10vw;
+}
+
+.songinfo img{
+    opacity: 1;
+   transition: opacity 0.8s ease-in; 
+}
+
